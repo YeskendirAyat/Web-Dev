@@ -1,0 +1,46 @@
+<!-- <h2>Product Details</h2> -->
+<div *ngIf="product">
+    <h1 class='title'>{{product.name}}</h1>
+</div>
+<body>
+    <div *ngIf="product">
+        <!-- <form *ngIf='!product.isRemoved'> -->
+            <div class="main">
+                <div class='iamgeBox'>
+                    <img src={{product.image}} alt="">
+                </div>
+                <div class='infoBox'>
+                    <div class="name">
+                        <a href={{product.link}} target="_blank">{{product.name}}</a>
+                    </div>
+                    <div class="description">
+                        <p>{{product.description}}</p>
+                    </div>
+                    <div class="rating">
+                        rating: {{ product.rating }}
+                    </div>
+                    <div class="likes">
+                        likes: {{ product.likesCount }}
+                    </div>
+                    <div class="price">
+                        Price: {{ product.price }}
+                    </div>
+                    <div class="shareButtons">
+                        <button class="ShareButtonTelegram" (click)="shareTelegagram(product.link)">
+                        </button>
+                        <button class="ShareButtonWatsapp" (click)="shareWatsapp(product.link)">
+                        </button>
+                        <button class="likeButton" (click)='isLicked()'>
+                        </button>
+                        <button class="removeButton" (click)="DeteleItem()">
+                            Remove
+                        </button>
+                    </div>
+                </div>
+            </div>
+        <!-- </form> -->
+    </div>
+    <!-- <button (click)='isLicked()'>
+        tmp
+    </button> -->
+</body>

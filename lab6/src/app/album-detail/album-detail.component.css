@@ -1,0 +1,36 @@
+.main{
+    padding-top: 3%;
+    margin-bottom: 36%;
+    display: flex;
+    justify-content: start;
+}
+.left{
+    margin-left: 5%;
+    width: 50%;
+}
+img{
+    width: 40%;
+}
+.goPhoto{
+    width: 40%;
+    background-image: url('https://colorpalettes.net/wp-content/uploads/2019/03/cvetovaya-palitra-3983.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.newName{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.saveButton{
+    margin-top: 4%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

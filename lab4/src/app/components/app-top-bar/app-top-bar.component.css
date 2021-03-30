@@ -1,0 +1,31 @@
+div{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: teal;
+    border-radius: 5px;
+}
+h1{
+    color: rgb(241, 240, 240);
+}
+button{
+    width: 30%;
+    border-radius: 8px;
+    background-color: white;
+    background-image: url('checkoutIcon.png');
+    background-size: 100%;
+    background-position: 10% -10px; /* 0px 0px; */
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    padding-left: 10%;
+}
+.logo{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 15%;
+    padding: 2% 2% 2% 2%;
+    border: 1px solid rgba(0, 0, 0, 0.521);
+    width: 25%;
+    height: 25%;
+}

@@ -1,0 +1,20 @@
+<button class="back" (click)='goBack()'> Back </button>
+<h2 >List</h2>
+<div>
+  <div class="addAlbumDiv">
+    <input class="newName" type="text" [(ngModel)]="textField" placeholder="Enter name">
+    <button class="add" (click)='addAlbum()'>Add</button>
+  </div>
+  <div *ngIf="!loading">
+    <div class="list" *ngFor="let album of albums">
+      <div class="title">
+        <a routerLink="{{album.id}}">{{album.id}}) {{album.title}}</a>
+      </div>
+      <button (click)="deleteAlbum(album.id)">X</button>
+    </div>
+  </div>
+  <div *ngIf="loading">
+    Loading
+    <img src="https://www.freeiconspng.com/thumbs/load-icon-png/load-icon-png-8.png" alt="">
+  </div>
+</div>

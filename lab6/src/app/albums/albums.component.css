@@ -1,0 +1,69 @@
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+h2{
+    text-align: center;
+    color: rgb(11, 34, 72);
+    border-top: 5px solid rgb(11, 34, 72);
+    border-bottom: 5px solid rgb(11, 34, 72);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+input{
+    width: 40%;
+}
+.addAlbumDiv{
+    display: flex;
+    justify-content: center;
+}
+input{
+    height: 26px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+button{
+    border: 2px solid rgb(114, 0, 0);
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.781);
+}
+button:hover{
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.877);
+}
+.add{
+    border: 2px solid rgb(11, 34, 72);
+}
+.add:hover{
+    box-shadow: 0 0 20px rgb(11, 34, 72);
+    border: 3px solid rgb(11, 34, 72);
+}
+.list{
+    border-bottom: 3px solid rgb(11, 34, 72);
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+.title{
+    width: 90%;
+}
+.back{
+    margin-left: 10%;
+}

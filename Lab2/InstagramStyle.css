@@ -1,0 +1,108 @@
+.leftSide{
+    float: left;
+
+    padding-left: 18%;
+    padding-top: 2%;
+    width: 32%;
+}
+#insideOfPhone{
+    position: absolute;
+    margin-top: -522px;
+    margin-left: 185px;
+    width: 247px;
+}
+.rightSide{
+    float: right;
+    width: 50%;
+}
+.rectangle{
+    border: 1px solid rgb(219,219,219);
+    margin-top: 10%;
+    margin-left: 3%;
+    margin-right: 40%;
+    width: 50%;
+    /* height: 500px; */
+}
+.instaTitle{
+    display: block;
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 25%; */
+    /* background-color: white; */
+}
+.Boxes{
+    width: 75%;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    border: 1px solid rgb(219,219,219);
+    font-size: 15px;
+}
+.LogIn{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+    width: 76%;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius:2px;
+    border: none;
+    background-color: rgb(197, 223, 250);
+}
+#or{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(142,142,142);
+    background-color: white;
+    margin-top: -108px ;
+    margin-left: 175px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+}
+#logo{
+    width: 76%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 6%;
+    margin-top: 7%;
+    border-top: 1px solid rgb(219,219,219);
+}
+#secondRectangle{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+.apps{
+    margin-left: 3%;
+    margin-right:47%;
+    margin-top: 2%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.appStore{
+    margin-left: 3%;
+    margin-right:47%;
+    margin-top: 2%;
+    float: left;
+}
+.googlePlay{
+    margin-left: 3%;
+    margin-right:47%;
+    margin-top: 2%;
+    float: right;
+}
+#footer-line{
+    color: rgb(121,123,126);
+    padding-bottom: 4px;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(221, 223, 226);
+}

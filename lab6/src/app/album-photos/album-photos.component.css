@@ -1,0 +1,13 @@
+button{
+    margin-left: 5%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+img{
+    border: 2px solid rgba(0, 0, 255, 0.664);
+    border-radius: 10px;
+    margin-top: -2px;
+}

@@ -1,0 +1,108 @@
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 300px;
+}
+.ProductBox{
+    background-color: #fff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border:2px solid rgb(151, 151, 151);
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(78, 56, 56); */
+}
+.title{
+    border: 1px none 1px none;
+    border-radius: 30px;
+    text-align: center;
+    /* display: block; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    color: white;
+    background-color:teal;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid rgb(151, 151, 151);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.info{
+    padding: 5% 2% 5% 2%;
+    /* background-color: chocolate; */
+    width: 60%;
+    display: flex;
+    justify-content: row;
+}
+.ShareButtonTelegram{
+    width:50px;
+    height: 50px;
+    color: white;
+    border: none;
+    border: 2px solid rgb(134, 133, 133);
+    background-image: url('https://i.pinimg.com/originals/65/5f/c9/655fc95d7384ca82b4ac0922df3e2249.png');
+    background-position: -1px -1px; /* 0px 0px; */
+    background-size: 50px 50px;
+    box-shadow: 0 0 10px rgb(122, 122, 122);
+
+    border-radius: 25px;
+    background-color:blueviolet;
+}
+.ShareButtonWatsapp{
+    margin-left: 10px;
+    width:50px;
+    height: 50px;
+    color: white;
+    box-shadow: 0 0 10px rgb(122, 122, 122);
+    border: 2px solid rgb(134, 133, 133);
+    background-image: url('https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-1.png');
+    background-size: 45px 45px;
+    background-color: white;
+    border-radius: 25px;
+
+}
+.divImage{
+    border:2px solid rgb(105, 105, 105);
+    border-radius: 5px;
+    display: block;
+    margin: auto;  
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.price{
+    color: rgb(216, 88, 42);
+}
+.rating{
+    font-family:monospace;
+    /* border-top: 2px solid rgba(0, 0, 0, 0.699);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.699);
+    border-right: 2px solid rgba(0, 0, 0, 0.699); */
+}
+.description{
+    /* border: 5px solid black; */
+    padding: 4% 0% 4% 0%;
+    border-top: 2px solid rgba(0, 0, 0, 0.699);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.699);
+    border-right: 2px solid rgba(0, 0, 0, 0.699);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.descriptionInfo{
+    font-family: serif;
+}
+.shareButtons{
+    display: flex;
+    justify-content: start;
+    /* background-color: blueviolet; */
+}

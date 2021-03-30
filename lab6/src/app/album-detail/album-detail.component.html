@@ -1,0 +1,16 @@
+<div *ngIf="!loading">
+    <div class="main" *ngIf="album">
+        <div class="left">
+            <button (click)="goBack()">Back</button>
+            <h1>
+                {{album.title}}
+            </h1>
+            <input class="newName" type="text" [(ngModel)]="textField" placeholder="Enter set name">
+            <button class="saveButton" (click)='saveTitle()'>save</button>
+        </div>
+        <button (click)='goToPhotos()'  class="goPhoto">
+            
+        </button>
+    </div>
+</div>
+<p *ngIf="loading">Loading...</p>

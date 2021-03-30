@@ -1,0 +1,125 @@
+.Page{
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: white;
+}
+.Begin{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.leftSide{
+    justify-content: space-between;
+    /* background-color: wheat; */
+    width: 40%;
+}
+.rightSide{
+    justify-content: flex-end;
+    /* background-color: wheat; */
+    width: 30%;
+}
+#logo{
+    /* margin-left: -2%; */
+    width: 130px;
+    height: 28px;
+    /* padding-top: 0.4%; */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+.main{
+    display: flex;
+    /* justify-content: center; */
+    background-color: black;
+    margin-top: 1%;
+}
+.Micro365{
+    background-color: rgb(230, 230, 230);
+    width: 42%;
+    /* height: auto; */
+}
+.Micro365Image{
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    background-color: rgb(230, 230, 230);
+    width: 59%;
+    
+}
+a:hover{
+    color: rgb(38, 38, 38);
+    text-decoration: underline;
+}
+a{
+    color: rgb(38, 38, 38);
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+input{
+    width: 50%;
+    /* height: 40%; */
+    margin-left: 10%;
+    border: 1px solid rgb(38, 38, 38);
+}
+#heads{
+    margin-top: 1.5%;
+    color: rgb(38, 38, 38);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.custom-select{
+    margin-top: 4%;
+    width: 100%;
+}
+.containerInfo{
+    margin-left: 15%;
+    margin-top: 27%;
+    flex-direction: column;
+
+}
+.BigWord{   
+    font-size: 230%;
+    font-family: sans-serif;
+}
+#para{
+    font-family: sans-serif;
+    font-size: 90%;
+    /* margin-top: -5%; */
+}
+.Buttons{
+    text-align: center;
+    font-family: sans-serif;
+    width: 35%;
+    color: #000;
+    font-size: 15px;
+    margin-left: auto;
+    margin-left: auto;
+    height: 40px;
+}
+.outro{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.flex-container2{
+    display: flex;
+    justify-content: space-between;
+}
+#photos{
+    width: 300px;
+    height: 175px;
+}
+#lastInfo{
+    font-family: sans-serif;
+    margin-top: -4%;
+}
+.products{
+    font-family: sans-serif;
+
+}
+
+#lastLink{
+    font-family: sans-serif;
+    color: rgb(41, 103, 178);
+}

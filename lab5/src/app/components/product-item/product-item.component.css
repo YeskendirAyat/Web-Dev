@@ -1,0 +1,157 @@
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.title{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(41, 52, 68);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -0.55%;
+}
+.main{
+    display: flex;
+    justify-content: left;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.733);
+    border-radius: 8px;
+    margin-top: 3%;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.iamgeBox{
+    width: 40%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+img{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    width: 80%;
+}
+.infoBox{
+    border-left: 2px solid gray;
+    width: 60%;
+    padding-top: 3%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-bottom:1px solid rgba(128, 128, 128, 0.712);
+    padding-bottom: 1%;
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.description{
+    margin-top: 5%;
+    padding: 1%  1%  2%  2% ;
+    font-family: serif;
+    border-bottom: 2px dotted rgba(126, 124, 124, 0.877);
+    border-right: 2px dotted rgba(126, 124, 124, 0.877);
+    border-left: 2px dotted rgba(126, 124, 124, 0.877);
+
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 10px;
+}
+.likes{
+    margin-top: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color:rgb(75, 75, 75);
+
+}
+.rating{
+    color:rgb(75, 75, 75);
+    margin-top: 2%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.price{
+    color: rgb(209, 30, 30);
+    display:inline-block;
+    border: 1px solid  rgba(209, 30, 30, 0.637);
+    margin-top: 2%;
+    margin-bottom: 3%;
+    padding: 1% 1% 1% 1% ;
+    border-radius: 2px;
+    /* box-shadow: 0 0 10px rgb(209, 30, 30); */
+
+    /* padding-bottom: 1%; */
+}
+.price:hover{
+    border: 1px solid  rgb(255, 0, 0);
+    box-shadow: 0 0 10px rgb(209, 30, 30);
+}
+.shareButtons{
+    display: flex;
+    justify-content: start;
+    /* background-color: blueviolet; */
+}
+.ShareButtonTelegram{
+    width:50px;
+    height: 50px;
+    color: white;
+    border: none;
+    border: 2px solid rgb(134, 133, 133);
+    background-image: url('https://i.pinimg.com/originals/65/5f/c9/655fc95d7384ca82b4ac0922df3e2249.png');
+    background-position: -1px -1px; /* 0px 0px; */
+    background-size: 50px 50px;
+    box-shadow: 0 0 10px rgb(122, 122, 122);
+
+    border-radius: 25px;
+    background-color:blueviolet;
+}
+.ShareButtonWatsapp{
+    margin-left: 10px;
+    width:50px;
+    height: 50px;
+    color: white;
+    box-shadow: 0 0 10px rgb(122, 122, 122);
+    border: 2px solid rgb(134, 133, 133);
+    background-image: url('https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-1.png');
+    background-size: 45px 45px;
+    background-color: white;
+    border-radius: 25px;
+
+}
+.removeButton{
+    margin-left: 10%;
+    background-color: rgb(177, 0, 0);
+    border: 2px solid rgb(177, 0, 0);
+    color: white;
+}
+.removeButton:hover{
+    box-shadow: 0 0 15px red;
+    border: 2px solid red
+
+}
+.likeButton{
+    background-color: black;
+    background-image: url('https://pngimg.com/uploads/like/like_PNG39.png');
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    margin-left: 2%;
+    width: 10%;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    border:2px solid gray;
+    background-size: 100%;
+    background-color: white;
+}
+.likeButton:hover{
+    box-shadow: 0 0 15px rgb(0, 0, 255);
+    border-color: blue;
+
+}
